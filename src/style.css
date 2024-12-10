@@ -1,0 +1,645 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+section{
+    padding: 50px 100px;
+}
+
+img{
+    width: 100%;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 100px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; 
+    background-color: rgb(4, 4, 49);
+}
+
+
+.logo img{
+    width: 400px;
+    transition: transform 0.7s ease;
+    -webkit-transition: transform 0.7s ease;
+    -moz-transition: transform 0.7s ease;
+    -ms-transition: transform 0.7s ease;
+    -o-transition: transform 0.7s ease;
+}
+
+.logo:hover{
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    padding: 12px 30px;
+    color: rgb(180, 180, 180);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+.navbar a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+.home{
+    width: 100%;
+    min-height: 120vh;
+    background: url(./HeaderBackground.svg);
+    max-height: 198px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.home-text h6{
+    font-size: 1.7rem;
+    color: rgb(0, 168, 186);
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 70px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.home-text h1{
+    font-size: 5rem;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 70px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.headersjs{
+    color: rgb(0, 168, 186);
+    margin-bottom: 70px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.home-text p{
+    font-size: 1.7rem;
+    color: rgb(165, 165, 165);
+    margin: 0.5rem 0 1.4rem;
+    margin-bottom: 100px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.btn{
+    padding: 15px 30px;
+    font-size: 1.7rem;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+    background: rgb(154, 154, 154);
+    color: aqua;
+    font-weight: 600;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.button2{
+    color: white;
+    margin: 0;
+    margin-left: 250px;
+    margin-bottom: 260px;
+    margin-top: -32.4px;
+}
+
+.btn:hover{
+    background: rgb(4, 4, 49);
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+    -ms-transition: all ease 0.4s;
+    -o-transition: all ease 0.4s;
+}
+
+.header-img {
+    width: 100%; 
+    max-width: 850px; 
+    height: auto; 
+}
+
+
+.header-img2 {
+    position: absolute; 
+    margin-top:1070px; 
+    width: 90%; 
+    height: auto; 
+    object-fit: cover;  
+    z-index: 1; 
+}
+
+.vaccine-types {
+    width: 100%;
+    height: 150px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vaccine-types img {
+    width: 100%; 
+    max-width: 4000px;
+    height: auto;
+    object-fit: contain; 
+    opacity: 50%;
+}
+
+
+.rengoku-kyojuro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background:url(./HeaderBackground.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.akaza{
+    width: 80%;
+}
+
+.kamado-tanjirou {
+    width: 100%;
+    min-height: 130vh;
+    background: url(./HeaderBackground.svg);
+    max-height: 198px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+    padding: 50px 100px;
+}
+
+.nezuko {
+    position: absolute; 
+    top: 10%;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    z-index: 2;
+}
+
+.nezuko h1 {
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 5%; 
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.nezuko h6 {
+    font-size: 1.7rem;
+    color: rgb(134, 134, 134);
+    position: absolute;
+    top: 20%;
+    right: 5%; 
+    z-index: 1;
+    margin-top: 5px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.kamado {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.kamado img {
+    width: 100%;
+    height: auto;
+    margin-top: 400px;
+}
+
+.tomioka-giyu{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./unsplash_Y4MKctPwIrw.png);
+    background-color: rgba(0,0,0,0.8);
+    max-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.uzui-tengen h1{
+    font-size: 5rem;
+    color: black;
+    margin: 0;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.image1{
+    width: 40%;
+    height: auto;
+    margin-bottom: 100px;
+    margin-left: 5%;
+}
+
+.image2{
+    width: 27%; 
+    height: auto;
+    margin-left: 1550px;
+    margin-top: -920px;
+}
+
+.image3{
+    width: 30%;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.eren-jeager{
+    width: 100%;
+    min-height: 110vh;
+    background: url(./HeaderBackground.svg);
+    max-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.mikasa-ackerman h3{
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    margin-left: 950px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.mikasa-ackerman h2{
+    color: rgb(0, 168, 186);
+    font-size: 5rem;
+    margin: 0;
+    margin-left: 650px;
+    margin-top: 60px;
+    margin-bottom: -25px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.mikasa-ackerman h1{
+    color: white;
+    font-size: 5rem;
+    margin: 0;
+    margin-left: 1100px;
+    margin-top: -92px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.mikasa-ackerman h6{
+    color: rgb(134, 134, 134);
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 60px;
+    margin-left: 500px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.mikasa-ackerman h5{
+    color: rgb(134, 134, 134);
+    font-size: 2rem;
+    margin: 0;
+    margin-left: 540px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.levi-ackerman{
+    width: 90%;
+    height: auto;
+    margin: 0;
+    margin-top: 155px;
+    margin-left: 110px;
+}
+
+.goku-saiyan{
+    width: 100%;
+    min-height: 130vh;
+    background: white;
+    max-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.vegeta-saiyan h3{
+    color: rgb(0, 168, 186);
+    font-size: 2rem;
+    margin: 0;
+    margin-left: 950px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.vegeta-saiyan h1{
+    color: black;
+    font-size: 5rem;
+    margin: 0;
+    margin-left: 620px;
+    margin-top: 60px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.vegeta-saiyan h6{
+    color: rgb(134, 134, 134);
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 60px;
+    margin-left: 500px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.vegeta-saiyan h5{
+    color: rgb(134, 134, 134);
+    font-size: 2rem;
+    margin: 0;
+    margin-left: 540px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.beerus{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-top: 167px;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.beerus:hover{
+    transform: scale(1.05);
+}
+
+.gohan-saiyan{
+    width: 100%;
+    max-width: 1800px;
+    margin-left: 180px;
+    margin-top: 160px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+    height: 60vh;
+    background:url(./HeaderBackground.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-logo{
+    width: 400px;
+    position: relative;
+    top: -70px;
+    transition: transform 0.7s ease;
+}
+
+.footer-logo:hover{
+    transform: scale(1.05);
+}
+
+.footer-navbar{
+    display: flex;
+    position: relative;
+    top: -90px;
+}
+
+.footer-navbar a{
+    padding: 12px 30px;
+    color: rgb(180, 180, 180);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+.footer-navbar a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+.footer-icon{
+    font-size: 60px;
+    cursor: pointer;
+    z-index: 10000;
+    display: flex;
+    column-gap: 0.8rem;
+    position: relative;
+    top: -80px;
+    transition: transform 0.3s ease;
+}
+
+.youtube:hover{
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+
+.instagram:hover{
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+
+.twitter:hover{
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+
+.facebook:hover{
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+
+.footer-icon .bx {
+    color: white;
+}
+
+.footer-icon .bx:hover{
+    color: rgb(3, 198, 198);
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 18px 20px;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .header-img {
+        max-width: 100%;
+    }
+
+    .home-text h1 {
+        font-size: 3rem;
+    }
+
+    .home-text p {
+        font-size: 1.4rem;
+    }
+
+    .home {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+    }
+
+    .footer-logo {
+        width: 200px;
+    }
+
+    .footer-navbar {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-navbar a {
+        padding: 12px 20px;
+        font-size: 1.3rem;
+    }
+
+    .footer-icon {
+        font-size: 30px;
+    }
+
+    .footer-icon .bx {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .home-text h1 {
+        font-size: 4rem;
+    }
+
+    .header-img {
+        max-width: 90%;
+    }
+
+    .home {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .btn {
+        font-size: 1.6rem;
+    }
+
+    .footer-navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-navbar a {
+        padding: 12px 30px;
+        font-size: 1.5rem;
+    }
+
+    .footer-icon {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .home-text h1 {
+        font-size: 5rem;
+    }
+
+    .home-text p {
+        font-size: 1.8rem;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-navbar a {
+        padding: 12px 30px;
+        font-size: 1.5rem;
+    }
+
+    .footer-icon {
+        font-size: 60px;
+    }
+}
